@@ -1,6 +1,6 @@
 ---
 name: skill-optimizer
-description: Audit other agent Skills for token inefficiency, score instruction quality, identify waste, and optionally refactor Skills for lower context cost without materially reducing capability.
+description: Audit other agent Skills for token inefficiency, score instruction quality, identify waste, and optionally refactor Skills for lower context cost without materially reducing capability.；中文触发：技能精简、指令去冗余、渐进式加载；English triggers: skill optimisation, token-efficient skills
 ---
 
 # Skill Optimizer
@@ -372,3 +372,7 @@ For **Refactor**, modify only the relevant Skill instruction files, preserve imp
 For **Compare**, show before/after structure and relative token-efficiency impact without inventing exact savings.
 
 Do not execute the target Skill's unrelated domain task.
+
+## Optional v3 research-group interface
+
+This Skill works independently. Only for a genuine cross-Skill task, read `references/research-group-interop-v3.md` on demand (relative to the Skill folder). Own **Skill instruction efficiency and progressive loading without lowering safety or domain coverage**; do not take over **Deleting safety constraints, refusal boundaries or verification rules just to reduce token count**. A suggested next specialist is not a completed tool call; preserve evidence and version in a small handoff.
